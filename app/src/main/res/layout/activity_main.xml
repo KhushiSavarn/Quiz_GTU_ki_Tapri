@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your Name"
+        android:inputType="text"/>
+
+    <Button
+        android:id="@+id/buttonStartIndividually"
+        android:layout_width="176dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="16dp"
+        android:text="Start Individually" />
+
+    <TextView
+        android:id="@+id/textOr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OR"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/editRoomID"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Room ID"
+        android:inputType="text"/>
+
+
+    <Button
+        android:id="@+id/buttonJoinRoom"
+        android:layout_width="326dp"
+        android:layout_height="83dp"
+
+        android:text="Join Room" />
+
+    <Button
+        android:id="@+id/buttonCreateRoom"
+        android:layout_width="326dp"
+        android:layout_height="83dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginRight="10dp"
+        android:text="Create Room" />
+
+</LinearLayout>
