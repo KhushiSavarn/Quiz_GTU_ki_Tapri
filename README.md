@@ -1,1 +1,1 @@
-# QUIZ module for the AP
+# QUIZ module for the APP
